@@ -39,6 +39,7 @@ add_library(pgfe SHARED
   ${src_c_dir}/otp/hotp.c ${src_c_dir}/otp/totp.c
   ${src_c_dir}/base_encoding/base-encoding-internal.c
   ${src_c_dir}/base_encoding/base64.c ${src_c_dir}/base_encoding/base32.c ${src_c_dir}/base_encoding/base16.c
+  ${src_c_dir}/rijndael/rijndael.c
   ${src_cpp_dir}/generic.cpp
   ${src_cpp_dir}/sequential_data.cpp
   ${src_cpp_dir}/utils.cpp
